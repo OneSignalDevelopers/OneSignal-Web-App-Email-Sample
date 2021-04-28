@@ -2,7 +2,7 @@
 
 This is a sample web application to demostrate the usage of OneSignal and SendGrid. 
 
-Emails can be used in a variety of ways. When we create an application is very important to make the user feel that the experience is being personalized and not just general for everyone. [OneSigna](https://onesignal.com) can help us with that. 
+Emails can be used in a variety of ways. When we create an application is very important to make the user feel that the experience is being personalized and not just general for everyone. [OneSignal](https://onesignal.com) can help us with that. 
 
 OneSignal has several tools in their one-stop dashboard that can help you increase your user experience. Some of those tools are Segments and Emails powered by [SendGrid](https://sendgrid.com/) by Twilio.
 
