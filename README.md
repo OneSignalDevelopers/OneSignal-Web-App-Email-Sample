@@ -12,7 +12,7 @@ Notes:
 * Create a FREE [OneSignal](https://onesignal.com/) account 
 * Follow the steps of the  [Typical setup](https://documentation.onesignal.com/docs/web-push-typical-setup)
 
-## Sending user emails to OneSignal
+## Sending User Emails To OneSignal
 
 After following the steps for a Typical site setup, go back to your app, in the *index.html* file we are going to modify a bit our JavaScript code. 
 
