@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneSignal Emails</title>
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+        window.OneSignal = window.OneSignal || [];
+        OneSignal.push(function() {
+            OneSignal.init({
+                appId: "eae46c6f-0502-4c41-b96a-b075f8137127",
+            });
+        });
+        
+        function setEmail() {
+            const email = prompt("Please enter your email", "example@domain.com");
+            OneSignal.push(function() {
+            OneSignal.setEmail("example@domain.com")          
+                .then(function(emailId) {
+                // Callback called when email have finished sending
+                console.log("emailId: ", emailId);  
+                }); 
+            });
+        }
+    </script>
+</head>
+<body>
+    <button onclick="setEmail()">Set Email</button>
+</body>
+</html>
